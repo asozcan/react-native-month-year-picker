@@ -1,5 +1,5 @@
 {
-  "name": "react-native-month-year-picker",
+  "name": "react-native-month-year-picker-mb",
   "title": "React Native Month Picker",
   "version": "1.8.1",
   "description": "React Native Month Picker component for iOS & Android",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gusparis/react-native-month-year-picker.git"
+    "url": "git@github.com:Medbikri/react-native-month-year-picker.git"
   },
   "keywords": [
     "react-native",
@@ -24,8 +24,7 @@
     "android"
   ],
   "author": {
-    "name": "Gustavo Dante Paris",
-    "email": "gustavodanteparis@gmail.com"
+    "name": "Gustavo Dante Paris"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
