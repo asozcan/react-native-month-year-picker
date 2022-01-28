@@ -29,7 +29,7 @@ const MonthPicker = ({
       switch (action) {
         case ACTION_DATE_SET:
         case ACTION_NEUTRAL:
-          date = moment(`${month}-${year}`, NATIVE_FORMAT).toDate();
+          date = moment(`${month}-${year}`, NATIVE_FORMAT).endOf('month').toDate();
           break;
         case ACTION_DISMISSED:
         default:
