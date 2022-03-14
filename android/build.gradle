@@ -105,6 +105,9 @@ def configureReactNativePom(def pom) {
     }
 }
 
+configurations.implementation.setCanBeResolved(true)
+configurations.api.setCanBeResolved(true)
+
 afterEvaluate { project ->
     // some Gradle build hooks ref:
     // https://www.oreilly.com/library/view/gradle-beyond-the/9781449373801/ch03.html
