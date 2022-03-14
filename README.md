@@ -1,5 +1,5 @@
 # react-native-month-year-picker
-React Native month picker component for iOS and Android.
+React Native month picker component for iOS and Android. Supports RN 0.67.3 and Gradle 7.2
 
 | UI Mode | Android | iOS |
 | --- | --- | --- |
@@ -10,11 +10,11 @@ React Native month picker component for iOS and Android.
 
 ## Getting started
 
-`$ npm install react-native-month-year-picker --save`
+`$ npm install react-native-month-year-picker-inf --save`
 
 or
 
-`$ yarn add react-native-month-year-picker`
+`$ yarn add react-native-month-year-picker-inf`
 
 ### For react-native@0.60.0 or above
 
